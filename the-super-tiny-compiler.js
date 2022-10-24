@@ -2,7 +2,7 @@
 
 /**
  * Today we're going to write a compiler together. But not just any compiler... A
- * super duper teeny tiny compiler! A compiler that is so small that if you
+ * super tiny compiler! A compiler that is so small that if you
  * remove all the comments this file would only be ~200 lines of actual code.
  *
  * We're going to compile some lisp-like function calls into some C-like
@@ -18,7 +18,7 @@
  *   4 - 2          (subtract 4 2)            subtract(4, 2)
  *   2 + (4 - 2)    (add 2 (subtract 4 2))    add(2, subtract(4, 2))
  *
- * Easy peezy right?
+ * Easy peazy right?
  *
  * Well good, because this is exactly what we are going to compile. While this
  * is neither a complete LISP or C syntax, it will be enough of the syntax to
@@ -254,7 +254,7 @@
  *
  * The final phase of a compiler is code generation. Sometimes compilers will do
  * things that overlap with transformation, but for the most part code
- * generation just means take our AST and string-ify code back out.
+ * generation just means take our AST and stringify code back out.
  *
  * Code generators work several different ways, some compilers will reuse the
  * tokens from earlier, others will have created a separate representation of
